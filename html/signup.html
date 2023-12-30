@@ -19,14 +19,29 @@
     <div class="m-auto w-65 p-5 my-shadow">
       <h1>Smart Login System</h1>
       <div>
+
         <input class="form-control my-3 bg-transparent text-light" type="text" id="input_1"
-          placeholder="Enter your name">
+          placeholder="Enter your name" />
+
+        <div class="d-none" id="hintInput_1">
+          <p class="text-danger">name must contain at least 4 characters</p>
+        </div>
+
         <input class="form-control my-3 bg-transparent text-light" type="text" id="input_2"
-          placeholder="Enter your email">
+          placeholder="Enter your email" />
+
+        <div class="d-none" id="hintInput_2">
+          <p class="text-danger">example@gmail.com</p>
+        </div>
+
         <input class="form-control my-3 bg-transparent text-light" type="password" id="input_3"
-          placeholder="Enter your password">
+          placeholder="Enter your password" />
+        <div class="d-none" id="hintInput_3">
+          <p class="text-danger">Password must contain at least 6 characters</p>
+        </div>
+
       </div>
-      
+
       <div class="d-none" id="message_1">
         <p class="text-danger">All inputs is required</p>
       </div>
@@ -43,6 +58,8 @@
       <span class="text-light">Don’t have an account?</span>
       <button class="btn btn-link hover-underline text-light ps-0" id="inputSignIn">Sign In</button>
     </div>
+
+
   </div>
 
   <!-- js bootstrap -->
