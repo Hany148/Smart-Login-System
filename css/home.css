@@ -1,0 +1,44 @@
+*
+{
+    text-decoration: none !important;
+    list-style: none !important;
+}
+
+:root
+{
+    --my-border: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+}
+
+body
+{
+    background: #24353f;
+    font-family: 'Titillium Web', sans-serif;
+
+}
+
+.the-color
+{
+    color: rgba(255,255,255,.5);
+}
+
+.my-shadow
+{
+    box-shadow: var(--my-border);
+}
+
+
+.navbar-toggler:focus
+{
+    border: 1px solid #ced4da !important ;
+    box-shadow: none !important;
+}
+
+.title
+{
+    box-shadow: var(--my-border);
+}
+
+h1{
+    color: #17a2b8;
+}

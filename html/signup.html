@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sing up</title>
+  <!-- css bootstrap -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- my css  -->
+  <link rel="stylesheet" href="../css/signup.css">
+
+</head>
+
+<body>
+
+  <div class="container my-5 text-center">
+    <div class="m-auto w-65 p-5 my-shadow">
+      <h1>Smart Login System</h1>
+      <div>
+        <input class="form-control my-3 bg-transparent text-light" type="text" id="input_1"
+          placeholder="Enter your name">
+        <input class="form-control my-3 bg-transparent text-light" type="text" id="input_2"
+          placeholder="Enter your email">
+        <input class="form-control my-3 bg-transparent text-light" type="password" id="input_3"
+          placeholder="Enter your password">
+      </div>
+      
+      <div class="d-none" id="message_1">
+        <p class="text-danger">All inputs is required</p>
+      </div>
+
+      <div class="d-none" id="message_2">
+        <p class="text-danger">Success</p>
+      </div>
+
+      <div class="d-none" id="message_3">
+        <p class="text-danger">email already exists</p>
+      </div>
+
+      <button class="btn btn-outline-info my-3 w-100" id="SignUp">Sign Up</button>
+      <span class="text-light">Don’t have an account?</span>
+      <button class="btn btn-link hover-underline text-light ps-0" id="inputSignIn">Sign In</button>
+    </div>
+  </div>
+
+  <!-- js bootstrap -->
+  <script src="../js/bootstrap.bundle.min.js"></script>
+  <!-- my js -->
+  <script src="../js/singup.js"></script>
+
+</body>
+
+</html>
